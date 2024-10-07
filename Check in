@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProjectBeta - Mars Rover</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 50px;
+            font-size: 50px;
+        }
+        p {
+            font-size: 20px;
+        }
+        .space-image {
+            width: 100%;
+            height: auto;
+        }
+        a {
+            color: lightblue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1>Explore the Mars Rover</h1>
+    <p>Discover the latest missions from NASA's Mars Rover and SpaceX.</p>
+    <img class="space-image" src="https://mars.nasa.gov/system/news_items/main_images/9332_PIA25703_web.jpg" alt="Mars Rover">
+    
+    <p>Click <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">here</a> for a special SpaceX mission update!</p>
+
+    <footer>
+        <p>&copy; 2024 ProjectBeta</p>
+    </footer>
+</body>
+</html>
